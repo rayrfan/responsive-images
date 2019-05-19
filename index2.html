@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>4 resizes</title>
+    <title>3 resizes</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <style>
@@ -25,17 +25,15 @@
         <div class="row">
             <div class="col-md-9">
                 <p>
-                    Suppose you have a large image that is over 1600px named autum.jpg,
-                    and you have resized it to 400px, 800px, 1200px and 1600px files,
-                    and suppose you don't want to involve the original file here because
-                    of its size, you want to as efficient as possible. So you want the 1200px
-                    to be 2x and 1600px to be 3x.
+                    Suppose you have an image that is over 1200px but less than 1600px named autum.jpg,
+                    and you have resized it to 400px, 800px, 1200px and the original,
+                    so in this case you have the original as 3x and the 1200px as 2x.
                 </p>
                 <figure class="image">
                     <img src="img/autum-800.jpg" srcset="img/autum-400.jpg 400w,
                     img/autum-800.jpg 800w,
                     img/autum-1200.jpg 2x,
-                    img/autum-1600.jpg 3x" sizes="(max-width: 800px) 100vw, 1200px" alt="autum">
+                    img/autum.jpg 3x" sizes="(max-width: 800px) 100vw, 1200px" alt="autum">
                 </figure>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus odit, doloremque possimus at
                     dignissimos laudantium? Repellat laboriosam laborum fugiat, tempora totam unde error aut enim ea?
